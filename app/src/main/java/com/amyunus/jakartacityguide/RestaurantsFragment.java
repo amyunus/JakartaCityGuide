@@ -19,7 +19,7 @@ public class RestaurantsFragment extends Fragment {
 
         TextView activityId = (TextView) rootView.findViewById(R.id.activity_id);
 
-        activityId.setText(R.string.landmarks);
+        activityId.setText(R.string.restaurants);
 
         return rootView;
     }
