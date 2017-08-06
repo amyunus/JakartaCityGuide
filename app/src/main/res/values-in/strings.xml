@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Petunjuk Kota Jakarta</string>
+    <string name="credit">Dibuat oleh AMYunus</string>
+    <string name="events">Acara</string>
+    <string name="landmarks">Bangunan</string>
+    <string name="restaurants">Restoran</string>
+    <string name="transports">Transportasi</string>
+</resources>

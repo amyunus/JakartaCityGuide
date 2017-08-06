@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Jakarta City Guide</string>
+    <string name="credit">Created by AMYunus</string>
+    <string name="landmarks">Landmark</string>
+    <string name="events">Event</string>
+    <string name="restaurants">Restaurant</string>
+    <string name="transports">Transportation</string>
+</resources>
