@@ -15,12 +15,14 @@ public class AboutFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
+        // Set the fragment view
         View rootView = inflater.inflate(R.layout.activity_about, container, false);
 
+        // Set the dummy text
         TextView credit = (TextView) rootView.findViewById(R.id.about_credit);
-
         credit.setText(R.string.credit);
 
+        // Display the fragment
         return rootView;
     }
 }

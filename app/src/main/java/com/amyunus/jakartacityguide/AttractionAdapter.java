@@ -15,10 +15,20 @@ import java.util.ArrayList;
  */
 
 public class AttractionAdapter extends ArrayAdapter<Attraction> {
+
+    /*
+     * Class constructor
+     * Activity context : which activity to be assigned
+     * int resource : which layout to be placed
+     * ArrayList<Attraction> objects : which object to be set
+     */
     public AttractionAdapter(Activity context, int resource, ArrayList<Attraction> objects) {
         super(context, resource, objects);
     }
 
+    /*
+     * Set the view of each item
+     */
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 

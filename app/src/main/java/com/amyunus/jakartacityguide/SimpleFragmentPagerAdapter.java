@@ -9,10 +9,17 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
+
+    /*
+    * Class constructor
+     */
     public SimpleFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
     }
 
+    /*
+     * Set the fragment based on fragment position
+     */
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
@@ -28,6 +35,9 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
         }
     }
 
+    /*
+     * Get how many of fragments available
+     */
     @Override
     public int getCount() {
         return 5;
